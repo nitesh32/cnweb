@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <style>
+      .num {
+        text-align: center;
+        background-color: rgb(182, 210, 118);
+      }
+      .nit{
+          background-color: aqua;
+          margin: 50px;
+      }
+      .nit:hover{
+        background-color: rgb(226, 65, 199);
+      }
+    </style>
+  </head>
+  <body class="nit">
+    <form class="num" >
+      <div >
+        <label for="username"> Username</label>
+        <br>
+        <input type="text" id="username" required placeholder="nitesh">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password" required placeholder="xyzedfsjfd">
+      </div>
+      <div>
+        <label for="number">number</label>
+        <br>
+        <input type="number" id="number" required placeholder="2343543">
+      </div>
+      <div>
+        <label for="time">Time</label>
+        <br>
+        <input type="time" id="time" required >
+      </div>
+      <div>
+        <label for="date">Date</label>
+        <br>
+        <input type="date" id="date" required >
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" required placeholder="abc@example.com">
+      </div>
+      <div>
+        <label for="range">Range</label>
+        <br>
+        <input type="range" id="range" required min="0" max="100" step="50" >
+      </div>
+      <div>
+        <label for="ra">Radio</label>
+        <br>
+        <input type="radio" id="ra" required>
+      </div>
+      <div>
+        <label for="Checkbox">Checkbox</label>
+        <br>
+        <input type="checkbox" id="Checkbox" required>
+      </div>
+      <div>
+        <span>Month</span>
+        <select name="month" >
+          <option value="">jan</option>
+          <option value="">feb</option>
+          <option value="">mar</option>
+          <option value="" selected>apr</option>
+          <option value="">may</option>
+          <option value="">jun</option>
+        </select>
+        
+      </div>
+      <br>
+      <div>
+        <span>comment below</span>
+        <textarea name="comment" rows="10" cols="30"></textarea>
+      </div>
+      
+      <div>
+        <input type="submit" style="background-color: rgb(222, 232, 87);" >
+      </div>
+    </form>
+  </body>
+</html>
